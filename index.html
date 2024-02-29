@@ -3,10 +3,25 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="style.css" rel="stylesheet" />
       <title>Rock-Paper-Scissors</title>
    </head>
 
-   <body></body>
+   <body>
+      <h1>5-Rounds RPS Game</h1>
+      <div id="choices">
+         <button onclick="playRound('Rock')">🪨</button>
+         <button onclick="playRound('Paper')">📄</button>
+         <button onclick="playRound('Scissors')">✂️</button>
+      </div>
+      <h1 id="finalResult"></h1>
+      <div id="results">
+         <p id="score"></p>
+         <p id="player"></p>
+         <p id="computer"></p>
+         <p id="roundResult"></p>
+      </div>
+   </body>
 
    <script src="script.js"></script>
 </html>
