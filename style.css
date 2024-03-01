@@ -23,7 +23,10 @@ h1 {
 }
 
 button {
-    color: purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     padding: 40px;
     font-size: 30px;
     width: 10%;
